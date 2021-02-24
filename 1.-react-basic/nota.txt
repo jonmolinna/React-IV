@@ -1,0 +1,6 @@
+1.-Componentes
+---------------------------------
+
+2.-Props
+-----------------------------------
+yarn add prop-types => permite definir el tipo de propiedad
