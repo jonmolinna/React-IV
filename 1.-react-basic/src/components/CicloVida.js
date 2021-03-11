@@ -18,7 +18,7 @@ class Reloj extends Component {
 export default class CicloVida extends Component {
     constructor(props){
         super(props);
-        console.log(0, "El componente se inicializa, aun NO esta en el DOM");
+        //console.log(0, "El componente se inicializa, aun NO esta en el DOM");
 
         this.state = {
             hora: new Date().toLocaleTimeString(),
@@ -30,14 +30,14 @@ export default class CicloVida extends Component {
 
     // Componente de Montaje, aqui se ejecutan las peticiones
     componentDidMount(){
-        console.log(1, 'El componente ya se encuentra en el DOM');
+        //console.log(1, 'El componente ya se encuentra en el DOM');
     }
 
     // Componente de Actualizacion
     componentDidUpdate(prevProps, prevState){
-        console.log(2, "El estado o las props del componente han cambiado");
-        console.log(prevProps);
-        console.log(prevState);
+        //console.log(2, "El estado o las props del componente han cambiado");
+        //console.log(prevProps);
+        //console.log(prevState);
     }
 
     tictac = () => {
@@ -63,7 +63,7 @@ export default class CicloVida extends Component {
     }
 
     render(){
-        console.log(4, "El componente se dibuja (o redibuja por algun cambio) en el DOM")
+        //console.log(4, "El componente se dibuja (o redibuja por algun cambio) en el DOM")
 
         return (
             <>
